@@ -28,5 +28,5 @@ Welcome to my 7-day journey into the world of **AI Prompt Engineering**. Each da
 
 ##  Connect with Me
 Built with curiosity & passion.  
-🔗 https://x.com/sortsec
-📬 https://www.linkedin.com/in/ganiyusortput
+🔗 [X](https://x.com/sortsec)
+📬 [Linkedin](https://www.linkedin.com/in/ganiyusortput)

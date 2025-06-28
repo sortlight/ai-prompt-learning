@@ -1,6 +1,6 @@
-# 🧙‍♂️ Day 2 – Role-Based Prompting
+#  Day 2 – Role-Based Prompting
 
-## 🧠 What I Learned
+## What I Learned
 Today I learned how to use **role-based prompting** to shape the style and depth of AI responses. This technique allows me to assign a "persona" to the AI so that it responds more appropriately for specialized tasks.
 
 By saying things like "Act as a UX designer" or "Act as a software engineer", the output becomes far more focused, accurate, and natural.
@@ -43,3 +43,4 @@ function withdraw(uint amount) public {
     (bool success, ) = msg.sender.call{value: amount}("");
     require(success);
 }
+

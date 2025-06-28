@@ -1,6 +1,6 @@
 #  AI Prompt Engineering – 7 Day Learning Challenge
 
-Welcome to my 7-day journey into the world of **AI Prompt Engineering**. Each day I learn a new concept, test it with real prompts, and document the results here. Final project at the end 
+Welcome to my 7-day journey into the world of **AI Prompt Engineering**. Each day I learn a new concept, test it with real prompts and further document the results here. Final project at the end... Cant wait!!! kindly enjoy the ride. 
 
 ![Banner](./banner.png)
 
@@ -11,7 +11,7 @@ Welcome to my 7-day journey into the world of **AI Prompt Engineering**. Each da
 | Day | Topic | Link |
 |-----|-------|------|
 | 1 | Intro to Prompt Engineering | [Day 1 Notes](day1_intro.md) |
-| 2 | Role-based Prompting | Coming soon |
+| 2 | Role-based Prompting | [Day 2 Notes](day2_role_prompts.md) |
 | 3 | Chain-of-Thought Prompting | Coming soon |
 | 4 | Prompting for Code | Coming soon |
 | 5 | Creative Prompting | Coming soon |
@@ -23,7 +23,6 @@ Welcome to my 7-day journey into the world of **AI Prompt Engineering**. Each da
 ##  Tools Used
 - ChatGPT (GPT-4)
 - GitHub for versioning
-- Markdown for documentation
 
 ---
 

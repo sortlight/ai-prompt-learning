@@ -7,7 +7,7 @@ By saying things like "Act as a UX designer" or "Act as a software engineer", th
 
 ---
 
-## 🔧 Prompt 1 – Developer Role
+##  Prompt 1 – Developer Role
 
 **Prompt:**  
 Act as a senior smart contract auditor. I’ll paste a Solidity function, and I want you to identify potential bugs and security issues.

@@ -64,17 +64,17 @@ Expected AI Output:
 
 # ** Stack Used:**
 
-🧠 GPT-4
+GPT-4
 
-📄 Markdown + Git
+Markdown + Git
 
-💻 WSL (Ubuntu) + VS Code
+WSL (Ubuntu) + VS Code
 
-⚙️ GitHub
+⚙GitHub
 
-🧪 Solidity (tested via Remix IDE)
+Solidity (tested via Remix IDE)
 
-🔗 GitHub Repo
+GitHub Repo
 
 
 

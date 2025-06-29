@@ -101,7 +101,7 @@ Could batch updates off-chain and call fewer on-chain transactions.
 Suggestion: Cache ids.length in a local variable.
 
 
-##What I Learned##
+## What I Learnt
 
 Chain of Thought helps AI simulate real reasoning. its great for teaching, debugging and threat modeling.
 
@@ -110,3 +110,15 @@ It produces more accurate answers in complex logic scenarios.
 Applying CoT with Solidity makes LLMs feel more like mentors or security partners.
 
 
+## Tools Used
+OpenAI Claude
+
+VS Code with WSL
+
+Remix IDE for testing logic
+
+
+[Repo](github.com/sortlight/ai-prompt-learning)
+
+## Coming Next: Day 4 — Persona Prompting for Security & Productivity
+Next I’ll explore how to create custom AI personas (e.g., “DeFi risk analyst,” “Web3 project manager,” or “Christian coder coach”) that reflect my workflow and value as a person. 

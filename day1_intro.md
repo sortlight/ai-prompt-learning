@@ -100,3 +100,7 @@ Tomorrow, I’ll explore **role prompting** — getting the AI to "act" in speci
 
 ## 🔗 Follow the Full Project
 GitHub Repo: [AI Prompt Engineering – 7 Days](https://github.com/sortlight/ai-prompt-learning)
+
+Stay Blessed
+
+[SortSec](https://x.com/sortsec)

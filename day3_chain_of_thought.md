@@ -125,4 +125,5 @@ Next I’ll explore how to create custom AI personas (e.g., “DeFi risk analyst
 
 
 Stay blessed!
-SortSec
+
+[SortSec](https://x.com/sortsec)

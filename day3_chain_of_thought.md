@@ -111,7 +111,7 @@ Applying CoT with Solidity makes LLMs feel more like mentors or security partner
 
 
 ## Tools Used
-OpenAI Claude
+OpenAI and Claude
 
 VS Code with WSL
 

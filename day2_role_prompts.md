@@ -95,20 +95,21 @@ function sumValues() public view returns (uint) {
 
 Expected AI Output:
 
-🔁 Cache values.length outside the loop to save gas.
+Cache values.length outside the loop to save gas.
 
-💾 Consider maintaining a running total variable to avoid recalculating sums.
+Consider maintaining a running total variable to avoid recalculating sums.
 
-❗ Use custom errors instead of require() strings to save gas.
+Use custom errors instead of require() strings to save gas.
 
-📉 Use unchecked {} for the loop increment if overflow isn’t possible.
+Use unchecked {} for the loop increment if overflow isn’t possible.
 
-✅ Key Takeaways
-🧠 Giving the AI a specific expert identity changes its behavior dramatically.
 
-🔍 Role-based prompting is useful for security audits, exploit simulation, and gas optimization.
+## *Key Takeaways*
+ Giving the AI a specific expert identity changes its behavior dramatically.
 
-🚀 These techniques can enhance smart contract reviews, training, and automated static analysis using LLMs.
+ Role-based prompting is useful for security audits, exploit simulation, and gas optimization.
+
+ These techniques can enhance smart contract reviews, training, and automated static analysis using LLMs.
 
 
 
@@ -133,34 +134,8 @@ GitHub Repo
 Next I’ll explore how to make the AI reason step-by-step using Chain-of-Thought prompting. Very Useful for logic-heavy tasks, debugging and structured problem-solving.
 
 Stay blessed!
-SortSec
 
+[SortSec](https://x.com/sortsec)
 
-
-
-
-🎯 Prompt 3: ⛽ Gas Optimization Expert
-Prompt:
-Act as a Solidity gas optimization expert. I’ll paste a smart contract function — your task is to suggest gas-saving improvements without compromising functionality.
-
-Code Example:
-
-solidity
-Copy
-Edit
-uint[] public values;
-
-function addValue(uint value) public {
-    require(value > 0);
-    values.push(value);
-}
-
-function sumValues() public view returns (uint) {
-    uint sum = 0;
-    for (uint i = 0; i < values.length; i++) {
-        sum += values[i];
-    }
-    return sum;
-}
 
 

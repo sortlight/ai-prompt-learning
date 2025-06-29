@@ -122,3 +122,7 @@ Remix IDE for testing logic
 
 ## Coming Next: Day 4 — Persona Prompting for Security & Productivity
 Next I’ll explore how to create custom AI personas (e.g., “DeFi risk analyst,” “Web3 project manager,” or “Christian coder coach”) that reflect my workflow and value as a person. 
+
+
+Stay blessed!
+SortSec

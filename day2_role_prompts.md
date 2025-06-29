@@ -11,21 +11,53 @@ For Day 2, I crafted 3 role-specific prompts using Solidity smart contract examp
 **Prompt:**  
 Act as a senior smart contract auditor. I’ll paste a Solidity function, and I want you to identify potential bugs and security issues.
 
+Code Example:
+```solidity
+function withdraw(uint amount) public {
+    require(balances[msg.sender] >= amount);
+    (bool success, ) = msg.sender.call{value: amount}("");
+    require(success);
+    balances[msg.sender] -= amount;
+}
+
+```
+
 Expected AI Output:
 
-⚠️ Reentrancy vulnerability: Funds are sent before updating the balance.
+ Reentrancy vulnerability: Funds are sent before updating the balance.
 
-🧱 Breaks the Checks-Effects-Interactions pattern.
+ Breaks the Checks-Effects-Interactions pattern.
 
-✅ Fix: Update the balance before sending the Ether.
+ Fix: Update the balance before sending the Ether.
 
-📉 No event emission for withdraw.
+No event emission for withdraw.
 
 
 
 #  Prompt 2:  Bug Bounty Hunter
 Prompt:
 Act as an experienced bug bounty hunter analyzing Solidity smart contracts on live DeFi platforms. I’ll paste a function — your task is to identify any vulnerability, suggest a real-world exploit scenario, and recommend a patch or refactor.
+
+Code Example:
+```solidity
+
+mapping(address => uint256) public balances;
+
+function deposit() public payable {
+    balances[msg.sender] += msg.value;
+}
+
+function claim() public {
+    uint256 amount = balances[msg.sender];
+    require(amount > 0, "No funds to claim");
+
+    (bool sent, ) = msg.sender.call{value: amount}("");
+    require(sent, "Failed to send Ether");
+
+    balances[msg.sender] = 0;
+}
+```
+
 
 Expected AI Output:
 
@@ -42,6 +74,24 @@ Also consider using transfer() or send() for better gas-limited protection.
 Prompt:
 Act as a Solidity gas optimization expert. I’ll paste a smart contract function — your task is to suggest gas-saving improvements without compromising functionality.
 
+Code Example:
+```solidity
+
+uint[] public values;
+
+function addValue(uint value) public {
+    require(value > 0);
+    values.push(value);
+}
+
+function sumValues() public view returns (uint) {
+    uint sum = 0;
+    for (uint i = 0; i < values.length; i++) {
+        sum += values[i];
+    }
+    return sum;
+}
+```
 
 Expected AI Output:
 
@@ -85,40 +135,8 @@ Next I’ll explore how to make the AI reason step-by-step using Chain-of-Though
 Stay blessed!
 SortSec
 
-Code Example:
-```solidity
-function withdraw(uint amount) public {
-    require(balances[msg.sender] >= amount);
-    (bool success, ) = msg.sender.call{value: amount}("");
-    require(success);
-    balances[msg.sender] -= amount;
-}
 
 
-#  Prompt 2: 👾 Bug Bounty Hunter
-Prompt:
-Act as an experienced bug bounty hunter analyzing Solidity smart contracts on live DeFi platforms. I’ll paste a function — your task is to identify any vulnerability, suggest a real-world exploit scenario, and recommend a patch or refactor.
-
-Code Example:
-
-solidity
-Copy
-Edit
-mapping(address => uint256) public balances;
-
-function deposit() public payable {
-    balances[msg.sender] += msg.value;
-}
-
-function claim() public {
-    uint256 amount = balances[msg.sender];
-    require(amount > 0, "No funds to claim");
-
-    (bool sent, ) = msg.sender.call{value: amount}("");
-    require(sent, "Failed to send Ether");
-
-    balances[msg.sender] = 0;
-}
 
 
 🎯 Prompt 3: ⛽ Gas Optimization Expert

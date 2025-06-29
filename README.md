@@ -2,7 +2,7 @@
 
 Welcome to my 7-day journey into the world of **AI Prompt Engineering**. Each day I learn a new concept, test it with real prompts and further document the results here. Final project at the end... Cant wait!!! kindly enjoy the ride. 
 
-![Banner](./banner.png)
+![Banner]()
 
 ---
 

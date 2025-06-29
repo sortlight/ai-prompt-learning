@@ -12,7 +12,7 @@ Welcome to my 7-day journey into the world of **AI Prompt Engineering**. Each da
 |-----|-------|------|
 | 1 | Intro to Prompt Engineering | [Day 1 Notes](day1_intro.md) |
 | 2 | Role-based Prompting | [Day 2 Notes](day2_role_prompts.md) |
-| 3 | Chain-of-Thought Prompting | Coming soon |
+| 3 | Chain-of-Thought Prompting | [Day 3 Notes](day3_chain_of_thought.md) |
 | 4 | Prompting for Code | Coming soon |
 | 5 | Creative Prompting | Coming soon |
 | 6 | Prompt Templates | Coming soon |

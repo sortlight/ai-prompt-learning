@@ -1,4 +1,4 @@
-# Day 5: Style Transfer & Code Documentation: Make AI Speak Your Language
+# Day 6: Style Transfer & Code Documentation: Make AI Speak Your Language
 
 Today's focus: **Style Transfer + AI-assisted Documentation**
 
@@ -110,7 +110,7 @@ My personal voice & coding style
  
 [Ai prompt learning](github.com/sortlight/ai-prompt-learning)
 
-# Up Next: Day 6 — Multi-Shot Prompting + Prompt Memory
+# Up Next: Day 7 — Multi-Shot Prompting + Prompt Memory
 Next I’ll dive into how to feed multiple examples into the prompt (multi-shot) and simulate “memory” for larger tasks or contextual understanding.
 
 Let’s build smarter flows

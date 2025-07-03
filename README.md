@@ -16,12 +16,16 @@ Welcome to my 7-day journey into the world of **AI Prompt Engineering**. Each da
 | 4 | Prompting for Code | [Day 4 Note](day4_persona_prompting.md) |
 | 5 | Creative Prompting | [Day 5 Note](day5_creative_prompting.md) |
 | 6 | Style Transfer and AI Docu Prompting | [Day 6 Note](day6_style_docs.md) |
-| 7 | Final Project | Coming soon |
+| 7 | Final Project | [Day 7 Note](final_project_prompt.md) |
 
 ---
 
 ##  Tools Used
 - ChatGPT (GPT-4)
+- Deepseek
+- claude
+- Markdown
+- Searchprompt.com
 - GitHub for versioning
 
 ---

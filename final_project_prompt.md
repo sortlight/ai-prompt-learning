@@ -165,7 +165,25 @@ Final Task (Test Prompt)
 ✅ Multi-Shot Prompting 
 ✅ Documentation Readiness
 
+# Tools Used
 
+Solidity for contract samples
+
+Deepseek for prompt development
+
+My real dev voice, values and spritual flow 
+
+
+## GitHub Repo
+
+[github.com/sortlight/ai-prompt-learning](https://github.com/sortlight/ai-prompt-learning)
+
+---
+
+
+## Author 
+
+[Sortsec](x.com/sortsec)
 
 
   
